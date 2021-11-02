@@ -4,6 +4,7 @@ import { createBottomTabNavigator, BottomTabBar } from '@react-navigation/bottom
 import Svg, { Path } from 'react-native-svg';
 import { Home } from "../screens";
 import { COLORS, icons } from "../constans";
+//import { isIphoneX } from 'react-native-iphone-x-helper';
 
 const Tab = createBottomTabNavigator();
 const TabBarCustomButton = ({ accessibilityState, children, onPress }) => {
